@@ -1,3 +1,2 @@
-# django-login-system
-django login system 
-python manage.py runserver
+# my_django_web
+Full-Stack login + STRIPE

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block jumbotron %}
+ <!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+<h1>{{ user.username }}</h1>
+<p>This is {{ user.username }} Home page.</p>
+</div>
+{% endblock %}
+{% block content %}
+{{ user.username }}
+{{ user.email }}
+<footer>
+      <hr>
+    <center>
+
+    <p>&copy; Copyright 2017 Sihcoin</p>
+
+
+    </center>
+    </footer>
+{% endblock %}
+
+{% block styles %}
+<style >
+.jumbotron {
+	text-align: center;
+}
+</style>
+{% endblock %}

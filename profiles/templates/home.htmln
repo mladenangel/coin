@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<title>
+Coin.com
+</title>
+{% block styles %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="apple-itunes-app" name="apple-itunes-app" content="app-id=886427730" />
+<meta property="description" name="description" content="Coinbase es una plataforma en línea segura para comprar, vender, transferir y almacenar moneda digital." />
+<meta property="google-site-verification" name="google-site-verification" content="R7G5THr8xgaHFkTNkr_RUB0HvX2Nf8e4qnWi0X1kmz8" />
+<meta property="google-site-verification" name="google-site-verification" content="_GaQTkOlc8tLwxDbZfMdxgGPL5wnctrp-vfeavJVsHE" />
+<meta property="og:description" name="og:description" content="Coinbase es una plataforma en línea segura para comprar, vender, transferir y almacenar moneda digital."$
+<meta property="og:image" name="og:image" content="https://www.coinbase.com/img/og-home.jpg" />
+<meta property="og:title" name="og:title" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="og:type" name="og:type" content="website" />
+<meta property="twitter:app:id:googleplay" name="twitter:app:id:googleplay" content="com.coinbase.android" />
+<meta property="twitter:app:id:iphone" name="twitter:app:id:iphone" content="886427730" />
+<meta property="twitter:app:id:ipad" name="twitter:app:id:ipad" content="886427730" />
+<meta property="twitter:app:name:googleplay" name="twitter:app:name:googleplay" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="twitter:app:name:ipad" name="twitter:app:name:ipad" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="twitter:app:name:iphone" name="twitter:app:name:iphone" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="twitter:card" name="twitter:card" content="summary" />
+<meta property="twitter:creator" name="twitter:creator" content="@coinbase" />
+<meta property="twitter:description" name="twitter:description" content="Coinbase es una plataforma en línea segura para comprar, vender, transferir y almacenar moneda$
+<meta property="twitter:image" name="twitter:image" content="https://www.coinbase.com/img/og-home.jpg" />
+<meta property="twitter:site" name="twitter:site" content="@coinbase" />
+<meta property="twitter:title" name="twitter:title" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="manifest" href="/manifest.json" />
+<script type="application/ld+json">
+//<![CDATA[
+  {
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.coinbase.com",
+  "logo": "https://www.coinbase.com/images/logo.png",
+  "contactPoint": [{
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="apple-itunes-app" name="apple-itunes-app" content="app-id=886427730" />
+<meta property="description" name="description" content="Coinbase es una plataforma en línea segura para comprar, vender, transferir y almacenar moneda digital." />
+<meta property="google-site-verification" name="google-site-verification" content="R7G5THr8xgaHFkTNkr_RUB0HvX2Nf8e4qnWi0X1kmz8" />
+<meta property="google-site-verification" name="google-site-verification" content="_GaQTkOlc8tLwxDbZfMdxgGPL5wnctrp-vfeavJVsHE" />
+<meta property="og:description" name="og:description" content="Coinbase es una plataforma en línea segura para comprar, vender, transferir y almacenar moneda digital." />
+<meta property="og:image" name="og:image" content="https://www.coinbase.com/img/og-home.jpg" />
+<meta property="og:title" name="og:title" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="og:type" name="og:type" content="website" />
+<meta property="twitter:app:id:googleplay" name="twitter:app:id:googleplay" content="com.coinbase.android" />
+<meta property="twitter:app:id:iphone" name="twitter:app:id:iphone" content="886427730" />
+<meta property="twitter:app:id:ipad" name="twitter:app:id:ipad" content="886427730" />
+<meta property="twitter:app:name:googleplay" name="twitter:app:name:googleplay" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="twitter:app:name:ipad" name="twitter:app:name:ipad" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="twitter:app:name:iphone" name="twitter:app:name:iphone" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="twitter:card" name="twitter:card" content="summary" />
+<meta property="twitter:creator" name="twitter:creator" content="@coinbase" />
+<meta property="twitter:description" name="twitter:description" content="Coinbase es una plataforma en línea segura para comprar, vender, transferir y almacenar moneda digital." />
+<meta property="twitter:image" name="twitter:image" content="https://www.coinbase.com/img/og-home.jpg" />
+<meta property="twitter:site" name="twitter:site" content="@coinbase" />
+<meta property="twitter:title" name="twitter:title" content="Coinbase -Comprar/vender moneda digital" />
+<meta property="viewport" name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="manifest" href="/manifest.json" />
+<script type="application/ld+json">
+//<![CDATA[
+  {
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.coinbase.com",
+  "logo": "https://www.coinbase.com/images/logo.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-888-908–7930",
+    "contactType": "Customer support"
+  }]
+}
+
+//]]>
+</script>
+<script type="text/javascript">
+window.Coinbase = {"cache":{},"constants":{"ENV":"production","HTTPS":true,"MIXPANEL_TOKEN":"7c112173efca4899213c618484d8f5fe","BUGSNAG_JS_API_KEY":"a19f89113e392bb944d3ec0796340fbd","BUGSNAG_REACT_API_KEY":"afb3b2c84dbb04bf0f2f260003685211","PUSHER_SSL":true,"PUSHER_KEY":"d7be708e7945ebab11a34c530cb4dc","PUSHER_WS_HOST":"ws.coinbase.com","PUSHER_WS_PORT":443,"PLAID_PUBLIC_KEY":"c52f3de17944312356997882b0c8de","PLAID_ENV":"production","USER":{"id":"5a1be62e462a2000e301877d","uuid":"3bf8b4d6-e3a9-5243-85db-2943e3547747","email":"mladen.angelov@gmail.com","name":"mladen angelov","bitcoin_units":"BTC","native_currency":"EUR","pusher_channel":"private-5a1be62e462a2000e301877d","exo_ui":true,"referral_amount":"$10 (€8)"},"S_SNIPPET_KEY":"6174a9","SESSION_ID":"30066fe9fc9b960150dcd530f06a003f","DEBUG":false,"API_HOST":"https://api.coinbase.com","CRYPTOCURRENCIES":["BTC","ETH","LTC"],"S_ID":"5a1be62e462a2000e301877d","API_JWT_TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiM2JmOGI0ZDYtZTNhOS01MjQzLTg1ZGItMjk0M2UzNTQ3NzQ3Iiwic2NvcGVzIjpbIndhbGxldDp1c2VyOnJlYWQiLCJ3YWxsZXQ6dXNlcjplbWFpbCIsIndhbGxldDp1c2VyOnVwZGF0ZSIsIndhbGxldDpjb250YWN0czpyZWFkIiwid2FsbGV0OmFjY291bnRzOnJlYWQiLCJ3YWxsZXQ6YWNjb3VudHM6Y3JlYXRlIiwid2FsbGV0OmFjY291bnRzOnVwZGF0ZSIsIndhbGxldDphY2NvdW50czpkZWxldGUiLCJ3YWxsZXQ6YWRkcmVzc2VzOnJlYWQiLCJ3YWxsZXQ6YWRkcmVzc2VzOmNyZWF0ZSIsIndhbGxldDp0cmFuc2FjdGlvbnM6cmVhZCIsIndhbGxldDp0cmFuc2FjdGlvbnM6c2VuZCIsIndhbGxldDp0cmFuc2FjdGlvbnM6cmVxdWVzdCIsIndhbGxldDp0cmFuc2FjdGlvbnM6dHJhbnNmZXIiLCJ3YWxsZXQ6YnV5czpyZWFkIiwid2FsbGV0OmJ1eXM6Y3JlYXRlIiwid2FsbGV0OnNlbGxzOnJlYWQiLCJ3YWxsZXQ6c2VsbHM6Y3JlYXRlIiwid2FsbGV0OmRlcG9zaXRzOnJlYWQiLCJ3YWxsZXQ6ZGVwb3NpdHM6Y3JlYXRlIiwid2FsbGV0OndpdGhkcmF3YWxzOnJlYWQiLCJ3YWxsZXQ6d2l0aGRyYXdhbHM6Y3JlYXRlIiwid2FsbGV0OnBheW1lbnQtbWV0aG9kczpyZWFkIiwid2FsbGV0OnBheW1lbnQtbWV0aG9kczpkZWxldGUiLCJ3YWxsZXQ6cGF5bWVudC1tZXRob2RzOmxpbWl0cyIsImludGVybmFsOndhbGxldDp1c2VyIiwiaW50ZXJuYWw6d2FsbGV0OmFjY291bnRzIiwiaW50ZXJuYWw6d2FsbGV0OnBob25lLW51bWJlcnMiLCJpbnRlcm5hbDp3YWxsZXQ6YmlsbGluZy1hZGRyZXNzZXMiLCJpbnRlcm5hbDp3YWxsZXQ6cGF5bWVudC1tZXRob2RzIiwiaW50ZXJuYWw6d2FsbGV0OnJlY3VycmluZy1wYXltZW50cyIsImludGVybmFsOndhbGxldDpqdW1pby1wcm9maWxlcyIsImludGVybmFsOndhbGxldDpyZXN0cmljdGlvbnMiLCJpbnRlcm5hbDp3YWxsZXQ6dHJhbnNhY3Rpb25zIiwiaW50ZXJuYWw6d2FsbGV0OmFsZXJ0cyIsImludGVybmFsOndhbGxldDp3aGl0ZWxpc3RlZC1hZGRyZXNzZXMiLCJpbnRlcm5hbDp3YWxsZXQ6aWRlbnRpdHktdmVyaWZpY2F0aW9ucyJdLCJqd3RfY2xpZW50Ijoid3d3IiwiZXhwIjoxNTExODY0ODQxfQ.2ZTJr0fIWGsL4P_Xf1jmJbicg2g_XkKji5IkEFAPzfk","OLARK_KEY":"8678-140-10-4291"},"modules":{},"translations":{"CURRENCY_UNIT":"€","CURRENCY_DELIMITER":".","CURRENCY_SEPARATOR":",","CURRENCY_FORMAT":"%n %u","LOCALE":"es","AVAILABLE_LOCALES":[["Deutsch","de"],["English","en"],["English - United States","en-US"],["Español","es"],["Español - Méjico","es-mx"],["Français","fr"],["bahasa Indonesia","id"],["Italiano","it"],["Nederlands","nl"],["Português","pt"],["Português - Brazil","pt-br"]]},"utils":{},"metrics":{"trackingInfo":{"country_code":"ES"},"browser":{"name":"Firefox","version":"57"}}};
+window.MIXPANEL_CUSTOM_LIB_URL = "https://www.coinbase.com/assets/vendor/mixpanel/build/mixpanel.globals-bddb90230a17af203432e87b9e2dbc38dd784eeae2f9e3138ae2cda28a0a228a.js";
+window.apiHost = Coinbase.constants.API_HOST;
+window.jwtToken = Coinbase.constants.API_JWT_TOKEN;
+</script>
+<link rel="stylesheet" media="all" href="https://www.coinbase.com/assets/core-e670f2c089c15da9c9ff593ad940b36a8260f6683be087ada6fac9d28a75222d.css" />
+<link rel="stylesheet" media="all" href="https://www.coinbase.com/assets/application-5fa801e29d686202621aeb22e7c7d8a165c173b7956ef948323453cc8d68182f.css" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="yb8g3zdHEQhrPb9JKfC7lhpWdvPbWcgGYUphZeAZtodwMc5aX7TdKvTmCWOAIG71MPs6EvmKKo0aec+RccxMWg==" />
+<script src="https://www.coinbase.com/assets/jquery-f4879eb8690155de2bdcafd0967e4171fd96bdfcea8d747a3d1f771479f5689f.js"></script>
+<script src="https://www.coinbase.com/assets/application-92b048061f35500338b30702e4421230f4c3ad3cc5bf01c88c9d97633783704b.js"></script>
+<link rel="stylesheet" media="screen" href="https://assets.coinbase.com/deploys/2017-11-20-231919_7f52577b94d4c0005c67793509b2a15a6a82b0fb/styles.db7a8bff550d48529593.css" />
+<meta name="viewport" content="width=1250, initial-scale=1.0">
+<link rel="alternate" hreflang="de" href="https://www.coinbase.com/settings?locale=de" />
+<link rel="alternate" hreflang="en" href="https://www.coinbase.com/settings?locale=en" />
+<link rel="alternate" hreflang="en-US" href="https://www.coinbase.com/settings?locale=en-US" />
+//]]>
+</script>
+<script type="text/javascript">
+window.Coinbase = {"cache":{},"constants":{"ENV":"production","HTTPS":true,"MIXPANEL_TOKEN":"7c112173efca4899213c618484d8f5fe","BUGSNAG_JS_API_KEY":"a19f89113e392bb94$
+window.MIXPANEL_CUSTOM_LIB_URL = "https://www.coinbase.com/assets/vendor/mixpanel/build/mixpanel.globals-bddb90230a17af203432e87b9e2dbc38dd784eeae2f9e3138ae2cda28a0a2$
+window.apiHost = Coinbase.constants.API_HOST;
+window.jwtToken = Coinbase.constants.API_JWT_TOKEN;
+</script>
+<link rel="stylesheet" media="all" href="https://www.coinbase.com/assets/core-e670f2c089c15da9c9ff593ad940b36a8260f6683be087ada6fac9d28a75222d.css" />
+<link rel="stylesheet" media="all" href="https://www.coinbase.com/assets/application-5fa801e29d686202621aeb22e7c7d8a165c173b7956ef948323453cc8d68182f.css" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="yb8g3zdHEQhrPb9JKfC7lhpWdvPbWcgGYUphZeAZtodwMc5aX7TdKvTmCWOAIG71MPs6EvmKKo0aec+RccxMWg==" />
+<script src="https://www.coinbase.com/assets/jquery-f4879eb8690155de2bdcafd0967e4171fd96bdfcea8d747a3d1f771479f5689f.js"></script>
+<script src="https://www.coinbase.com/assets/application-92b048061f35500338b30702e4421230f4c3ad3cc5bf01c88c9d97633783704b.js"></script>
+<link rel="stylesheet" media="screen" href="https://assets.coinbase.com/deploys/2017-11-20-231919_7f52577b94d4c0005c67793509b2a15a6a82b0fb/styles.db7a8bff550d48529593$
+<meta name="viewport" content="width=1250, initial-scale=1.0">
+<link rel="alternate" hreflang="de" href="https://www.coinbase.com/settings?locale=de" />
+<link rel="alternate" hreflang="en" href="https://www.coinbase.com/settings?locale=en" />
+<link rel="alternate" hreflang="en-US" href="https://www.coinbase.com/settings?locale=en-US" />
+<link rel="alternate" hreflang="es" href="https://www.coinbase.com/settings?locale=es" />
+<link rel="alternate" hreflang="es-mx" href="https://www.coinbase.com/settings?locale=es-mx" />
+<link rel="alternate" hreflang="fr" href="https://www.coinbase.com/settings?locale=fr" />
+<link rel="alternate" hreflang="id" href="https://www.coinbase.com/settings?locale=id" />
+<link rel="alternate" hreflang="it" href="https://www.coinbase.com/settings?locale=it" />
+<link rel="alternate" hreflang="nl" href="https://www.coinbase.com/settings?locale=nl" />
+<link rel="alternate" hreflang="pt" href="https://www.coinbase.com/settings?locale=pt" />
+<link rel="alternate" hreflang="pt-br" href="https://www.coinbase.com/settings?locale=pt-br" />
+<link rel="alternate" hreflang="x-default" href="https://www.coinbase.com/settings" />
+<link rel="stylesheet" media="all" href="https://www.coinbase.com/assets/simple-636cb22231b0b853d4221d8a19d74e442aac7e1794481073db83cb47dc88b012.css" />
+<style >
+body{
+        margin:0;
+        color:#6a6f8c;
+        background:#c8c8c8;
+        font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+<link rel="alternate" hreflang="es" href="https://www.coinbase.com/settings?locale=es" />
+<link rel="alternate" hreflang="es-mx" href="https://www.coinbase.com/settings?locale=es-mx" />
+<link rel="alternate" hreflang="fr" href="https://www.coinbase.com/settings?locale=fr" />
+<link rel="alternate" hreflang="id" href="https://www.coinbase.com/settings?locale=id" />
+<link rel="alternate" hreflang="it" href="https://www.coinbase.com/settings?locale=it" />
+<link rel="alternate" hreflang="nl" href="https://www.coinbase.com/settings?locale=nl" />
+<link rel="alternate" hreflang="pt" href="https://www.coinbase.com/settings?locale=pt" />
+<link rel="alternate" hreflang="pt-br" href="https://www.coinbase.com/settings?locale=pt-br" />
+<link rel="alternate" hreflang="x-default" href="https://www.coinbase.com/settings" />
+<link rel="stylesheet" media="all" href="https://www.coinbase.com/assets/simple-636cb22231b0b853d4221d8a19d74e442aac7e1794481073db83cb47dc88b012.css" />
+<style >
+body{
+	margin:0;
+	color:#6a6f8c;
+	background:#c8c8c8;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	background:url(https:) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+</style>
+{% endblock %}
+{% block content %}
+<body class="app signed-in settings show" data-controller-name="settings" data-action-name="show" data-view-name="Coinbase.Views.Settings.Show" data-account-id="">
+{% if request.user.is_authenticated %}
+<h3>Wellcome {{ request_user }} !</h3>
+{% else %}
+<div class="login-wrap">
+<div class="login-html">
+<input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+<label for="tab-1" class="tab">Sign In</label>
+<input id="tab-2" type="radio" name="tab" class="sign-up">
+<label for="tab-2" class="tab">Sign Up</label>
+<div class="login-form">
+<div class="sign-in-htm">
+<div class="group">
+<form class="login" method="POST" action="/accounts/login/">
+{% csrf_token %}
+<label for="user" class="label">Username<span class="asteriskField">*</span></label>
+<input id="user" type="text" class="input textInput form-control" autofocus="autofocus" required="" placeholder="Username or e-mail" id="id_login">
+</div>
+<div class="group">
+<label for="pass" class="label">Password<span class="asteriskField">*</span></label>
+<input id="pass" type="password" class="input" data-type="password">
+</div>
+<div class="group">
+<input id="check" type="checkbox" class="check" checked>
+<label for="check"><span class="icon"></span> Keep me Signed in</label>
+</div>
+<div class="group">
+<button type="submit" class="button primaryAction" >Sign In</button>
+</div>
+</form>
+<div class="hr"></div>
+<div class="foot-lnk">
+<a href="#forgot">Forgot Password?</a>
+</div>
+</div>
+<div class="sign-up-htm">
+<div class="group">
+<label for="user" class="label">Username</label>
+<input id="user" type="text" class="input">
+</div>
+<div class="group">
+<label for="pass" class="label">Password</label>
+<input id="pass" type="password" class="input" data-type="password">
+</div>
+<div class="group">
+<label for="pass" class="label">Repeat Password</label>
+<input id="pass" type="password" class="input" data-type="password">
+</div>
+<div class="group">
+<label for="pass" class="label">Email Address</label>
+<input id="pass" type="text" class="input">
+</div>
+<div class="group">
+<input type="submit" class="button" value="Sign Up">
+</div>
+<div class="hr"></div>
+<div class="foot-lnk">
+<label for="tab-1">Already Member?</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+{% csrf_token %}
+<script type="text/javascript">
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32804181-1', 'auto', {
+    siteSpeedSampleRate: 100
+  });
+  ga('require', 'linkid');
+  ga('set', 'forceSSL', true);
+  ga('send', 'pageview');
+</script>
+
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=379670032410722&ev=PageView&noscript=1" />
+
+
+<script>
+  var analytics = analytics || {};
+  (function() {
+      if(analytics.firstLoad === undefined) {
+          var whitelist = /^(?!(^|.*\.)(?:coinbase\.com|gdax\.com|cbhq\.net|localhost)$).*$/,
+              hostname = location.hostname;
+
+          if (hostname.match(whitelist)) {
+                  (function (d, t) {
+                      var g = d.createElement(t),
+                          s = d.getElementsByTagName(t)[0],
+                          server = 'https://static.statsjar.com/analytics/rsxdhm2zkI.js';
+                          g.src = server;
+                          g.setAttribute("async", "");
+                          s.parentNode.insertBefore(g, s.nextSibling);
+                  }(document, 'script'));
+          }
+          analytics.firstLoad = false;
+      }
+  })();
+</script>
+<script type="text/javascript">
+    Coinbase.exchangeRatesGlobal = {"usd_to_btc":0.000102557843905936,"btc_to_usd":9750.595,"usd_to_bits":"102.557843905936","bits_to_usd":"0.009750595","usd_to_b2x":0.0007410701052319549,"b2x_to_usd":1349.4,"usd_to_eth":0.0020805592543275634,"eth_to_usd":480.64,"usd_to_etc":0.04549362861731214,"etc_to_usd":21.9811,"usd_to_ltc":0.011047892614483787,"ltc_to_usd":90.515,"eur_to_btc":0.00012376245282330001,"btc_to_eur":8079.995,"eur_to_bits":"123.76245282330001","bits_to_eur":"0.008079995","eur_to_b2x":null,"b2x_to_eur":null,"eur_to_eth":0.0025050413958090656,"eth_to_eur":399.195,"eur_to_etc":null,"etc_to_eur":null,"eur_to_ltc":0.013295220368277603,"ltc_to_eur":75.215,"gbp_to_btc":0.000135685210312076,"btc_to_gbp":7370.0,"gbp_to_bits":"135.685210312076","bits_to_gbp":"0.00737","gbp_to_b2x":null,"b2x_to_gbp":null,"gbp_to_eth":null,"eth_to_gbp":null,"gbp_to_etc":null,"etc_to_gbp":null,"gbp_to_ltc":null,"ltc_to_gbp":null,"cad_to_btc":null,"btc_to_cad":null,"cad_to_bits":"0.0","bits_to_cad":"0.0","cad_to_b2x":null,"b2x_to_cad":null,"cad_to_eth":null,"eth_to_cad":null,"cad_to_etc":null,"etc_to_cad":null,"cad_to_ltc":null,"ltc_to_cad":null};
+
+      // update Mixpanel
+      Coinbase.metrics.trackingInfo = {"country_code":"ES"};
+  </script>
+<script src="https://assets.coinbase.com/deploys/2017-11-20-231919_7f52577b94d4c0005c67793509b2a15a6a82b0fb/manifest.8dc0c55fb3419c8aba3b.js" crossorigin="anonymous"></script>
+<script src="https://assets.coinbase.com/deploys/2017-11-20-231919_7f52577b94d4c0005c67793509b2a15a6a82b0fb/vendor.6c6c6797b116e22667d4.js" crossorigin="anonymous"></script>
+<script src="https://assets.coinbase.com/deploys/2017-11-20-231919_7f52577b94d4c0005c67793509b2a15a6a82b0fb/jumio.db7a8bff550d48529593.js" crossorigin="anonymous"></script>
+{% endif %}
+</body>
+</html>
+{% endblock %}

@@ -29,7 +29,7 @@ SECRET_KEY = 'm3-(sj5b+oly3cp9&!i35=xg900p)#1ykwfl$%nrsp84pqhw+b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['95.215.62.201']
+ALLOWED_HOSTS = []
 
 
 
@@ -101,9 +101,9 @@ WSGI_APPLICATION = 'coin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'coin',
-        'USER': 'coin',
-        'PASSWORD': 'ml4d3n',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',
     }
